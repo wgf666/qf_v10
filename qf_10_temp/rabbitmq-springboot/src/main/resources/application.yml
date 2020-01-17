@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 192.168.206.130
+    port: 5672
+    username: czt
+    password: 123
+    virtual-host: /czt

@@ -1,0 +1,10 @@
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: chenzetao88886@163.com
+    password: chenzetao88886
+    default-encoding: UTF-8
+
+email:
+  address: chenzetao88886@163.com

@@ -1,0 +1,19 @@
+
+dubbo:
+  application:
+    name: item-service
+  registry:
+    protocol: zookeeper
+    address: 192.168.206.130:2181
+  protocol:
+    port: 28802
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///pro_1910
+    username: root
+    password: 123
+html:
+  locations: d://test//

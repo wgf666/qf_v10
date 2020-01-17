@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: search
+  registry:
+    protocol: zookeeper
+    address: 192.168.206.130:2181
+server:
+  port: 9092
+
